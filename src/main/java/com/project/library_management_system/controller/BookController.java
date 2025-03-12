@@ -14,6 +14,7 @@ import java.util.List;
 @RequestMapping("/api/books")
 @RequiredArgsConstructor
 public class BookController {
+
     private final BookService bookService;
 
     @GetMapping

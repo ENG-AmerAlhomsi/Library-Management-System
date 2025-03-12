@@ -104,7 +104,11 @@ public class BookControllerTest {
     public void testUpdateBook() throws Exception {
         Book updatedBook = new Book();
         updatedBook.setTitle("Updated Title");
-        Mockito.when(bookService.updateBook(eq(1L),any(Book.class))).thenReturn(updatedBook);
+        updatedBook.setAuthor("Updated Author");
+        updatedBook.setIsbn("123-4567890123"); // Valid ISBN format
+        updatedBook.setPublicationYear(Year.of(2023));
+
+        Mockito.when(bookService.updateBook(eq(1L), any(Book.class))).thenReturn(updatedBook);
 
         mockMvc.perform(put("/api/books/1")
                         .contentType(MediaType.APPLICATION_JSON)

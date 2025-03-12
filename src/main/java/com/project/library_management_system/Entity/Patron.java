@@ -15,7 +15,6 @@ import lombok.*;
 @Table(name = "patrons")
 public class Patron {
 
-    // Getters and Setters
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -28,7 +27,6 @@ public class Patron {
     @Column(nullable = false)
     private String contactInfo;
 
-    // Optional: Email validation if contact info is an email
     @Email(message = "Invalid email format")
     private String email;
 

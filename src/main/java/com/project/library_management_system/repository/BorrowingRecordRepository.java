@@ -18,9 +18,11 @@ public interface BorrowingRecordRepository extends JpaRepository<BorrowingRecord
 
     // Find a specific borrowing record
     @Query("SELECT br FROM BorrowingRecord br WHERE br.book.id = :bookId AND br.patron.id = :patronId AND br.status = :status")
-    Optional<BorrowingRecord> findByBookAndPatronAndStatus(
+    Optional<BorrowingRecord> findByBook_IdAndPatron_IdAndStatus(
             @Param("bookId") Long bookId,
             @Param("patronId") Long patronId,
             @Param("status") BorrowingRecord.BorrowingStatus status
     );
+
+    Object findByBookIdAndPatronIdAndStatus(Long bookId, Long patronId, BorrowingRecord.BorrowingStatus borrowingStatus);
 }

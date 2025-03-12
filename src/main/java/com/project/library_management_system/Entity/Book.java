@@ -15,7 +15,7 @@ import java.time.Year;
 @Entity
 @Table(name = "books")
 public class Book {
-    // Getters and Setters
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

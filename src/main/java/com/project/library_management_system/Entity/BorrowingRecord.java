@@ -15,7 +15,6 @@ import java.time.LocalDateTime;
 @Table(name = "borrowing_records")
 public class BorrowingRecord {
 
-    // Getters and Setters
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
