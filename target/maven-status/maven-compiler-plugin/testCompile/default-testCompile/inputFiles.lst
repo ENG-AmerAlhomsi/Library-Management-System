@@ -1,2 +1,10 @@
-C:\Users\thelo\IdeaProjects\warehouse_management_system\src\test\java\com\project\warehouse_management_system\TestModels.java
-C:\Users\thelo\IdeaProjects\warehouse_management_system\src\test\java\com\project\warehouse_management_system\WarehouseManagementSystemApplicationTests.java
+C:\Users\thelo\IdeaProjects\LibraryManagementSystem\src\test\java\com\project\library_management_system\controller\BookControllerTest.java
+C:\Users\thelo\IdeaProjects\LibraryManagementSystem\src\test\java\com\project\library_management_system\controller\BorrowingRecordControllerTest.java
+C:\Users\thelo\IdeaProjects\LibraryManagementSystem\src\test\java\com\project\library_management_system\controller\PatronControllerTest.java
+C:\Users\thelo\IdeaProjects\LibraryManagementSystem\src\test\java\com\project\library_management_system\LibraryManagementSystemTests.java
+C:\Users\thelo\IdeaProjects\LibraryManagementSystem\src\test\java\com\project\library_management_system\repository\BookRepositoryTest.java
+C:\Users\thelo\IdeaProjects\LibraryManagementSystem\src\test\java\com\project\library_management_system\repository\BorrowingRecordRepositoryTest.java
+C:\Users\thelo\IdeaProjects\LibraryManagementSystem\src\test\java\com\project\library_management_system\repository\PatronRepositoryTest.java
+C:\Users\thelo\IdeaProjects\LibraryManagementSystem\src\test\java\com\project\library_management_system\service\BookServiceTest.java
+C:\Users\thelo\IdeaProjects\LibraryManagementSystem\src\test\java\com\project\library_management_system\service\BorrowingRecordServiceTest.java
+C:\Users\thelo\IdeaProjects\LibraryManagementSystem\src\test\java\com\project\library_management_system\service\PatronServiceTest.java

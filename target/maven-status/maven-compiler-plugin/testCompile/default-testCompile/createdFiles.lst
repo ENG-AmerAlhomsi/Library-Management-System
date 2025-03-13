@@ -1,0 +1,10 @@
+com\project\library_management_system\controller\PatronControllerTest.class
+com\project\library_management_system\controller\BorrowingRecordControllerTest.class
+com\project\library_management_system\repository\BookRepositoryTest.class
+com\project\library_management_system\repository\BorrowingRecordRepositoryTest.class
+com\project\library_management_system\service\BorrowingRecordServiceTest.class
+com\project\library_management_system\controller\BookControllerTest.class
+com\project\library_management_system\LibraryManagementSystemTests.class
+com\project\library_management_system\service\PatronServiceTest.class
+com\project\library_management_system\repository\PatronRepositoryTest.class
+com\project\library_management_system\service\BookServiceTest.class

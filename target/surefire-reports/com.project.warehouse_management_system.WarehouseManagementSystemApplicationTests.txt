@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.project.warehouse_management_system.WarehouseManagementSystemApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.014 s -- in com.project.warehouse_management_system.WarehouseManagementSystemApplicationTests
